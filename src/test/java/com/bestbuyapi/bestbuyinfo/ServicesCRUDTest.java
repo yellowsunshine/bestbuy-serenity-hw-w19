@@ -16,14 +16,7 @@ import static org.hamcrest.Matchers.hasValue;
 @RunWith(SerenityRunner.class)
 public class ServicesCRUDTest extends TestBase {
 
-    /*{
-        "id": 1,
-            "name": "Geek Squad Services",
-            "createdAt": "2016-11-17T17:56:35.881Z",
-            "updatedAt": "2016-11-17T17:56:35.881Z"
-    }*/
-
-    public static String name = "Photo Printing"+ TestUtils.getRandomValue();
+    public static String name = "Screen Printing"+ TestUtils.getRandomValue();
     public static int serviceID;
 
     @Steps
